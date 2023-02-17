@@ -1,0 +1,146 @@
+body{
+    background-color: #76d7d6;
+
+}
+nav{
+
+    display: flex;
+    border-radius: 20px;
+    height: 200px;   
+    position: absolute;
+
+}
+
+#logo{
+    margin-left: 50px;
+    /* margin-top: 30px; */
+}
+#nav-list{
+    
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#nav-buttons{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+#nav-list ul{
+    display: flex;
+    list-style: none;
+}
+#nav-list ul li{
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    height: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+#nav-list ul .li1{
+    background-color: #ff0000;
+    
+}
+#nav-list ul .li2{
+    background-color: #ff7f00;
+   
+}
+#nav-list ul .li3{
+    background-color:#f6b63a;
+
+}
+#nav-list ul .li4{
+    background-color: #9cbf3e;
+ 
+}
+#nav-list ul .li5{
+    background-color: #2799c9;
+
+}
+#nav-list ul .li6{
+    background-color:#9400d3;
+
+}
+
+#child{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(157, 186, 244)), url("./img/pic2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    border-radius: 20px;
+    /* margin-top: 30px; */
+    /* display: flex; */
+}
+
+/* #child .toys{
+    background-image: url("./img/child6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+#child .play{
+    background-image: url("./img/child2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+#child .learn{
+    background-image: url("./img/child1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+} */
+
+#nav-list .call span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#nav-list .call{
+    margin-left: 60%;
+    margin-bottom: 50px;
+}
+.call .span1{
+    margin-right: 4px;
+    color: white;
+}
+.call .span2{
+    color: #4b00d3;
+}
+
+
+#child #firstp span{
+    font-weight: bolder;
+    padding-left: 50px;    
+    font-size: 80px;
+    color: #4b00d3;
+    /* padding-top: 200px; */
+}
+#child #secondp{
+    margin-top: 30px;
+}
+
+#child #secondp span{
+    font-weight: bolder;
+    padding-left: 50px;    
+    font-size: 30px;
+    color: #2799c9;
+    text-transform: uppercase;
+}
+
+#text{
+    padding-top: 25%;
+}
